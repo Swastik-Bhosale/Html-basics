@@ -1,0 +1,31 @@
+
+P{
+    outline-style: double;
+    outline-color: chartreuse;
+    outline-width: 0cqmin;
+}
+p.ex2 {
+    background-color: aqua  ;
+    border: 3px solid black;
+    outline-style: dotted;
+    outline-color: blue;
+    outline-offset: 15px;
+    margin: 25px 50px 75px 100px;
+  }
+  p{
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-style: dashed;
+    outline-offset: 15px;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: right;
+  }
+  p {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }

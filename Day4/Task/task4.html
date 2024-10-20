@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .signin-form {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+        }
+        .signin-form h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .signin-form input[type="text"], .signin-form input[type="password"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .signin-form input[type="submit"] {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .signin-form input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        .signin-form .alt-signin {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .welcome-back {
+            padding: 30px;
+            background-color: #28a745;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+        }
+        .welcome-back h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .welcome-back p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .welcome-back a {
+            color: #fff;
+            background-color: #218838;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="signin-form">
+            <h1>Signin</h1>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required><br>
+                <input type="submit" value="Signin">
+            </form>
+            <div class="alt-signin">
+                or signin with
+            </div>
+        </div>
+        <div class="welcome-back">
+            <h2>Welcome back!</h2>
+            <p>Welcome back! We are so happy to have you here. It’s great to see you again. We hope you had a safe and enjoyable time away.</p>
+            <a href="#">No account yet? Signup</a>
+        </div>
+    </div>
+</body>
+</html>
